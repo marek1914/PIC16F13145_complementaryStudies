@@ -1,0 +1,25 @@
+* C:\Users\fsacco\Desktop\Francesco\LTSpice_Studies\Drops of LTSpice\Drops of LTSpice - 13 Understanding the MEASURE\Regulator.asc
+V1 VIN 0 12
+L1 N004 VOUT 100µ Rser=0.05
+C1 VOUT 0 100µ V=16 Irms=360m Rser=0.157 Lser=3n mfg="Würth Elektronik" pn="860080373005 WCAP-ATLI 6,3x11" type="Al electrolytic"
+V2 N003 0 PULSE(0 6 0 5u 5u 0 10u)
+M1 N004 PWM VIN VIN IRF9640
+D1 0 N004 1N4148
+R1 VOUT 0 {RX}
+XU1 N003 N001 VIN 0 N002 LTC6752
+B1 N001 0 V={KP}*V(ERROR) + {KI}*idt(V(ERROR))
+B2 ERROR 0 V={SP} - V(VOUT)
+R2 PWM N002 10
+D2 N002 PWM 1N4148
+.model D D
+.lib C:\Users\fsacco\AppData\Local\LTspice\lib\cmp\standard.dio
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\Users\fsacco\AppData\Local\LTspice\lib\cmp\standard.mos
+.tran 0 1 0 1u startup
+.step param RX 5 40 5
+.param SP=5 KP=1.2 KI=20
+.meas Eff RMS ( I( R1 ) * V( VOUT ) ) / ( -I( V1 ) * V( VIN ) )
+.lib LTC7.lib
+.backanno
+.end
