@@ -1,0 +1,444 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F13145 ]
+[d frameptr 6 ]
+"53 C:\Users\fsacco\Desktop\Francesco\complementaryStudies\pic16f13145\CounterGrayCode_Ver.X\mcc_generated_files/nvm/src/nvm.c
+[e E6611 . `uc
+NVM_OK 0
+NVM_ERROR 1
+]
+"10 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"39 C:\Users\fsacco\Desktop\Francesco\complementaryStudies\pic16f13145\CounterGrayCode_Ver.X\main.c
+[v _main main `(i  1 e 2 0 ]
+"45 C:\Users\fsacco\Desktop\Francesco\complementaryStudies\pic16f13145\CounterGrayCode_Ver.X\mcc_generated_files/clb/src/clb1.c
+[v _CLB1_Initialize CLB1_Initialize `(v  1 e 1 0 ]
+"103
+[v _CLB1_IsCLBSWINBusy CLB1_IsCLBSWINBusy `T(a  1 e 1 0 ]
+"108
+[v _CLB1_Configure CLB1_Configure `(v  1 e 1 0 ]
+"43 C:\Users\fsacco\Desktop\Francesco\complementaryStudies\pic16f13145\CounterGrayCode_Ver.X\mcc_generated_files/crc/src/crc.c
+[v _CRC_Initialize CRC_Initialize `(v  1 e 1 0 ]
+"133
+[v _CRC_ReverseValue CRC_ReverseValue `(ul  1 s 4 CRC_ReverseValue ]
+"192
+[v _CRC_StartNvmScanner CRC_StartNvmScanner `T(v  1 e 1 0 ]
+"202
+[v _CRC_StopNvmScanner CRC_StopNvmScanner `T(v  1 e 1 0 ]
+"212
+[v _CRC_SetScannerAddressLimit CRC_SetScannerAddressLimit `(v  1 e 1 0 ]
+"220
+[v _CRC_IsScannerBusy CRC_IsScannerBusy `T(a  1 e 1 0 ]
+"43 C:\Users\fsacco\Desktop\Francesco\complementaryStudies\pic16f13145\CounterGrayCode_Ver.X\mcc_generated_files/nvm/src/nvm.c
+[v _NVM_Initialize NVM_Initialize `(v  1 e 1 0 ]
+"65
+[v _NVM_StatusClear NVM_StatusClear `(v  1 e 1 0 ]
+"37 C:\Users\fsacco\Desktop\Francesco\complementaryStudies\pic16f13145\CounterGrayCode_Ver.X\mcc_generated_files/system/src/clock.c
+[v _CLOCK_Initialize CLOCK_Initialize `(v  1 e 1 0 ]
+"40 C:\Users\fsacco\Desktop\Francesco\complementaryStudies\pic16f13145\CounterGrayCode_Ver.X\mcc_generated_files/system/src/interrupt.c
+[v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
+"59
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
+"81
+[v _INT_CallBack INT_CallBack `(v  1 e 1 0 ]
+"90
+[v _INT_SetInterruptHandler INT_SetInterruptHandler `(v  1 e 1 0 ]
+"94
+[v _INT_DefaultInterruptHandler INT_DefaultInterruptHandler `(v  1 e 1 0 ]
+"38 C:\Users\fsacco\Desktop\Francesco\complementaryStudies\pic16f13145\CounterGrayCode_Ver.X\mcc_generated_files/system/src/pins.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"116
+[v _PIN_MANAGER_IOC PIN_MANAGER_IOC `(v  1 e 1 0 ]
+"39 C:\Users\fsacco\Desktop\Francesco\complementaryStudies\pic16f13145\CounterGrayCode_Ver.X\mcc_generated_files/system/src/system.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+[s S395 . 1 `uc 1 INTEDG 1 0 :1:0 
+`uc 1 . 1 0 :5:1 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"426 C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC16F1xxxx_DFP/1.24.387/xc8\pic\include\proc\pic16f13145.h
+[u S400 . 1 `S395 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES400  1 e 1 @11 ]
+"597
+[v _TRISA TRISA `VEuc  1 e 1 @18 ]
+"642
+[v _TRISB TRISB `VEuc  1 e 1 @19 ]
+"681
+[v _TRISC TRISC `VEuc  1 e 1 @20 ]
+"743
+[v _LATA LATA `VEuc  1 e 1 @24 ]
+"788
+[v _LATB LATB `VEuc  1 e 1 @25 ]
+"827
+[v _LATC LATC `VEuc  1 e 1 @26 ]
+[s S382 . 1 `uc 1 INTF 1 0 :1:0 
+`uc 1 . 1 0 :3:1 
+`uc 1 IOCIF 1 0 :1:4 
+`uc 1 TMR0IF 1 0 :1:5 
+]
+"902
+[u S387 . 1 `S382 1 . 1 0 ]
+[v _PIR0bits PIR0bits `VES387  1 e 1 @140 ]
+[s S80 . 1 `uc 1 NVMIF 1 0 :1:0 
+`uc 1 CRCIF 1 0 :1:1 
+`uc 1 SCANIF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 CSWIF 1 0 :1:4 
+`uc 1 OSFIF 1 0 :1:5 
+`uc 1 TMR1IF 1 0 :1:6 
+`uc 1 TMR1GIF 1 0 :1:7 
+]
+"939
+[u S89 . 1 `S80 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES89  1 e 1 @141 ]
+[s S304 . 1 `uc 1 CLB1IF0 1 0 :1:0 
+`uc 1 CLB1IF1 1 0 :1:1 
+`uc 1 CLB1IF2 1 0 :1:2 
+`uc 1 CLB1IF3 1 0 :1:3 
+]
+"1150
+[u S309 . 1 `S304 1 . 1 0 ]
+[v _PIR7bits PIR7bits `VES309  1 e 1 @147 ]
+[s S418 . 1 `uc 1 INTE 1 0 :1:0 
+`uc 1 . 1 0 :3:1 
+`uc 1 IOCIE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+]
+"1188
+[u S423 . 1 `S418 1 . 1 0 ]
+[v _PIE0bits PIE0bits `VES423  1 e 1 @150 ]
+[s S101 . 1 `uc 1 NVMIE 1 0 :1:0 
+`uc 1 CRCIE 1 0 :1:1 
+`uc 1 SCANIE 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 CSWIE 1 0 :1:4 
+`uc 1 OSFIE 1 0 :1:5 
+`uc 1 TMR1IE 1 0 :1:6 
+`uc 1 TMR1GIE 1 0 :1:7 
+]
+"1225
+[u S110 . 1 `S101 1 . 1 0 ]
+[v _PIE1bits PIE1bits `VES110  1 e 1 @151 ]
+[s S317 . 1 `uc 1 CLB1IE0 1 0 :1:0 
+`uc 1 CLB1IE1 1 0 :1:1 
+`uc 1 CLB1IE2 1 0 :1:2 
+`uc 1 CLB1IE3 1 0 :1:3 
+]
+"1436
+[u S322 . 1 `S317 1 . 1 0 ]
+[v _PIE7bits PIE7bits `VES322  1 e 1 @157 ]
+"3135
+[v _OSCCON1 OSCCON1 `VEuc  1 e 1 @653 ]
+"3275
+[v _OSCCON3 OSCCON3 `VEuc  1 e 1 @655 ]
+"3366
+[v _OSCEN OSCEN `VEuc  1 e 1 @657 ]
+"3418
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @658 ]
+"3476
+[v _OSCFRQ OSCFRQ `VEuc  1 e 1 @659 ]
+"5639
+[v _CLBCON CLBCON `VEuc  1 e 1 @1292 ]
+[s S273 . 1 `uc 1 BUSY 1 0 :1:0 
+`uc 1 RDHOLD 1 0 :1:1 
+`uc 1 . 1 0 :5:2 
+`uc 1 EN 1 0 :1:7 
+]
+"5656
+[s S278 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 CLBEN 1 0 :1:7 
+]
+[u S281 . 1 `S273 1 . 1 0 `S278 1 . 1 0 ]
+[v _CLBCONbits CLBCONbits `VES281  1 e 1 @1292 ]
+"5681
+[v _CLBSWINU CLBSWINU `VEuc  1 e 1 @1293 ]
+"5751
+[v _CLBSWINH CLBSWINH `VEuc  1 e 1 @1294 ]
+"5821
+[v _CLBSWINM CLBSWINM `VEuc  1 e 1 @1295 ]
+"5891
+[v _CLBSWINL CLBSWINL `VEuc  1 e 1 @1296 ]
+"6241
+[v _CLBCLK CLBCLK `VEuc  1 e 1 @1301 ]
+"6287
+[v _CLBPPSCON4 CLBPPSCON4 `VEuc  1 e 1 @1302 ]
+"6313
+[v _CLBPPSCON3 CLBPPSCON3 `VEuc  1 e 1 @1303 ]
+"6339
+[v _CLBPPSCON2 CLBPPSCON2 `VEuc  1 e 1 @1304 ]
+"6365
+[v _CLBPPSCON1 CLBPPSCON1 `VEuc  1 e 1 @1305 ]
+"9148
+[v _NVMADRL NVMADRL `VEuc  1 e 1 @7308 ]
+"9218
+[v _NVMADRH NVMADRH `VEuc  1 e 1 @7309 ]
+"9289
+[v _NVMDATL NVMDATL `VEuc  1 e 1 @7310 ]
+"9359
+[v _NVMDATH NVMDATH `VEuc  1 e 1 @7311 ]
+[s S473 . 1 `uc 1 RD 1 0 :1:0 
+`uc 1 WR 1 0 :1:1 
+`uc 1 WREN 1 0 :1:2 
+`uc 1 WRERR 1 0 :1:3 
+`uc 1 FREE 1 0 :1:4 
+`uc 1 LWLO 1 0 :1:5 
+`uc 1 NVMREGS 1 0 :1:6 
+]
+"9433
+[u S481 . 1 `S473 1 . 1 0 ]
+[v _NVMCON1bits NVMCON1bits `VES481  1 e 1 @7312 ]
+"9473
+[v _NVMCON2 NVMCON2 `VEuc  1 e 1 @7313 ]
+"9493
+[v _SCANCON0 SCANCON0 `VEuc  1 e 1 @7314 ]
+[s S143 . 1 `uc 1 MD 1 0 :2:0 
+`uc 1 . 1 0 :1:2 
+`uc 1 INTM 1 0 :1:3 
+`uc 1 DABORT 1 0 :1:4 
+`uc 1 BUSY 1 0 :1:5 
+`uc 1 SGO 1 0 :1:6 
+`uc 1 EN 1 0 :1:7 
+]
+"9513
+[s S151 . 1 `uc 1 MD0 1 0 :1:0 
+`uc 1 MD1 1 0 :1:1 
+]
+[u S154 . 1 `S143 1 . 1 0 `S151 1 . 1 0 ]
+[v _SCANCON0bits SCANCON0bits `VES154  1 e 1 @7314 ]
+"9565
+[v _SCANLADRL SCANLADRL `VEuc  1 e 1 @7315 ]
+"9585
+[v _SCANLADRH SCANLADRH `VEuc  1 e 1 @7316 ]
+"9612
+[v _SCANHADRL SCANHADRL `VEuc  1 e 1 @7318 ]
+"9632
+[v _SCANHADRH SCANHADRH `VEuc  1 e 1 @7319 ]
+[s S169 . 1 `uc 1 DPS 1 0 :1:0 
+]
+"9662
+[u S171 . 1 `S169 1 . 1 0 ]
+[v _SCANDPSbits SCANDPSbits `VES171  1 e 1 @7321 ]
+"9672
+[v _SCANTRIG SCANTRIG `VEuc  1 e 1 @7322 ]
+"9699
+[v _CRCDATAL CRCDATAL `VEuc  1 e 1 @7325 ]
+"9769
+[v _CRCDATAH CRCDATAH `VEuc  1 e 1 @7326 ]
+"9839
+[v _CRCDATAU CRCDATAU `VEuc  1 e 1 @7327 ]
+"9909
+[v _CRCDATAT CRCDATAT `VEuc  1 e 1 @7328 ]
+"9995
+[v _CRCOUTL CRCOUTL `VEuc  1 e 1 @7329 ]
+"10203
+[v _CRCXORL CRCXORL `VEuc  1 e 1 @7329 ]
+"10273
+[v _CRCOUTH CRCOUTH `VEuc  1 e 1 @7330 ]
+"10481
+[v _CRCXORH CRCXORH `VEuc  1 e 1 @7330 ]
+"10551
+[v _CRCOUTU CRCOUTU `VEuc  1 e 1 @7331 ]
+"10759
+[v _CRCXORU CRCXORU `VEuc  1 e 1 @7331 ]
+"10829
+[v _CRCOUTT CRCOUTT `VEuc  1 e 1 @7332 ]
+"11037
+[v _CRCXORT CRCXORT `VEuc  1 e 1 @7332 ]
+"11107
+[v _CRCCON0 CRCCON0 `VEuc  1 e 1 @7333 ]
+[s S25 . 1 `uc 1 FULL 1 0 :1:0 
+`uc 1 SHIFTM 1 0 :1:1 
+`uc 1 SETUP 1 0 :2:2 
+`uc 1 ACCMOD 1 0 :1:4 
+`uc 1 CRCBUSY 1 0 :1:5 
+`uc 1 CRCGO 1 0 :1:6 
+`uc 1 CRCEN 1 0 :1:7 
+]
+"11133
+[s S33 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 LENDIAN 1 0 :1:1 
+`uc 1 SETUP0 1 0 :1:2 
+`uc 1 SETUP1 1 0 :1:3 
+`uc 1 ACCM 1 0 :1:4 
+`uc 1 BUSY 1 0 :1:5 
+`uc 1 GO 1 0 :1:6 
+`uc 1 EN 1 0 :1:7 
+]
+[u S42 . 1 `S25 1 . 1 0 `S33 1 . 1 0 ]
+[v _CRCCON0bits CRCCON0bits `VES42  1 e 1 @7333 ]
+"11208
+[v _CRCCON1 CRCCON1 `VEuc  1 e 1 @7334 ]
+[s S123 . 1 `uc 1 PLEN 1 0 :5:0 
+]
+"11225
+[s S125 . 1 `uc 1 PLEN0 1 0 :1:0 
+`uc 1 PLEN1 1 0 :1:1 
+`uc 1 PLEN2 1 0 :1:2 
+`uc 1 PLEN3 1 0 :1:3 
+`uc 1 PLEN4 1 0 :1:4 
+]
+[u S131 . 1 `S123 1 . 1 0 `S125 1 . 1 0 ]
+[v _CRCCON1bits CRCCON1bits `VES131  1 e 1 @7334 ]
+"11260
+[v _CRCCON2 CRCCON2 `VEuc  1 e 1 @7335 ]
+"15462
+[v _RC0PPS RC0PPS `VEuc  1 e 1 @7580 ]
+"15482
+[v _RC1PPS RC1PPS `VEuc  1 e 1 @7581 ]
+"15502
+[v _RC2PPS RC2PPS `VEuc  1 e 1 @7582 ]
+"15522
+[v _RC3PPS RC3PPS `VEuc  1 e 1 @7583 ]
+"16546
+[v _ANSELA ANSELA `VEuc  1 e 1 @7820 ]
+"16624
+[v _WPUA WPUA `VEuc  1 e 1 @7821 ]
+"16674
+[v _ODCONA ODCONA `VEuc  1 e 1 @7822 ]
+"16719
+[v _SLRCONA SLRCONA `VEuc  1 e 1 @7823 ]
+"16764
+[v _INLVLA INLVLA `VEuc  1 e 1 @7824 ]
+"16814
+[v _IOCAP IOCAP `VEuc  1 e 1 @7825 ]
+"16864
+[v _IOCAN IOCAN `VEuc  1 e 1 @7826 ]
+"16914
+[v _IOCAF IOCAF `VEuc  1 e 1 @7827 ]
+"16964
+[v _ANSELB ANSELB `VEuc  1 e 1 @7830 ]
+"17030
+[v _WPUB WPUB `VEuc  1 e 1 @7831 ]
+"17069
+[v _ODCONB ODCONB `VEuc  1 e 1 @7832 ]
+"17108
+[v _SLRCONB SLRCONB `VEuc  1 e 1 @7833 ]
+"17147
+[v _INLVLB INLVLB `VEuc  1 e 1 @7834 ]
+"17186
+[v _IOCBP IOCBP `VEuc  1 e 1 @7835 ]
+"17225
+[v _IOCBN IOCBN `VEuc  1 e 1 @7836 ]
+"17264
+[v _IOCBF IOCBF `VEuc  1 e 1 @7837 ]
+"17303
+[v _ANSELC ANSELC `VEuc  1 e 1 @7840 ]
+"17415
+[v _WPUC WPUC `VEuc  1 e 1 @7841 ]
+"17477
+[v _ODCONC ODCONC `VEuc  1 e 1 @7842 ]
+"17539
+[v _SLRCONC SLRCONC `VEuc  1 e 1 @7843 ]
+"17601
+[v _INLVLC INLVLC `VEuc  1 e 1 @7844 ]
+"17663
+[v _IOCCP IOCCP `VEuc  1 e 1 @7845 ]
+"17725
+[v _IOCCN IOCCN `VEuc  1 e 1 @7846 ]
+"17787
+[v _IOCCF IOCCF `VEuc  1 e 1 @7847 ]
+"39 C:\Users\fsacco\Desktop\Francesco\complementaryStudies\pic16f13145\CounterGrayCode_Ver.X\mcc_generated_files/clb/src/clb1.c
+[v _start_clb_config start_clb_config `us  1 e 2 0 ]
+"40 C:\Users\fsacco\Desktop\Francesco\complementaryStudies\pic16f13145\CounterGrayCode_Ver.X\mcc_generated_files/nvm/src/nvm.c
+[v _unlockKeyLow unlockKeyLow `VNEuc  1 s 1 unlockKeyLow ]
+"41
+[v _unlockKeyHigh unlockKeyHigh `VNEuc  1 s 1 unlockKeyHigh ]
+"38 C:\Users\fsacco\Desktop\Francesco\complementaryStudies\pic16f13145\CounterGrayCode_Ver.X\mcc_generated_files/system/src/interrupt.c
+[v _INT_InterruptHandler INT_InterruptHandler `*.37(v  1 e 2 0 ]
+"39 C:\Users\fsacco\Desktop\Francesco\complementaryStudies\pic16f13145\CounterGrayCode_Ver.X\main.c
+[v _main main `(i  1 e 2 0 ]
+{
+"61
+[v main@cnt cnt `uc  1 a 1 10 ]
+"66
+} 0
+"39 C:\Users\fsacco\Desktop\Francesco\complementaryStudies\pic16f13145\CounterGrayCode_Ver.X\mcc_generated_files/system/src/system.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"47
+} 0
+"38 C:\Users\fsacco\Desktop\Francesco\complementaryStudies\pic16f13145\CounterGrayCode_Ver.X\mcc_generated_files/system/src/pins.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"114
+} 0
+"43 C:\Users\fsacco\Desktop\Francesco\complementaryStudies\pic16f13145\CounterGrayCode_Ver.X\mcc_generated_files/nvm/src/nvm.c
+[v _NVM_Initialize NVM_Initialize `(v  1 e 1 0 ]
+{
+"46
+} 0
+"65
+[v _NVM_StatusClear NVM_StatusClear `(v  1 e 1 0 ]
+{
+"68
+} 0
+"40 C:\Users\fsacco\Desktop\Francesco\complementaryStudies\pic16f13145\CounterGrayCode_Ver.X\mcc_generated_files/system/src/interrupt.c
+[v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
+{
+"50
+} 0
+"90
+[v _INT_SetInterruptHandler INT_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v INT_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 0 ]
+"92
+} 0
+"43 C:\Users\fsacco\Desktop\Francesco\complementaryStudies\pic16f13145\CounterGrayCode_Ver.X\mcc_generated_files/crc/src/crc.c
+[v _CRC_Initialize CRC_Initialize `(v  1 e 1 0 ]
+{
+"109
+} 0
+"37 C:\Users\fsacco\Desktop\Francesco\complementaryStudies\pic16f13145\CounterGrayCode_Ver.X\mcc_generated_files/system/src/clock.c
+[v _CLOCK_Initialize CLOCK_Initialize `(v  1 e 1 0 ]
+{
+"51
+} 0
+"45 C:\Users\fsacco\Desktop\Francesco\complementaryStudies\pic16f13145\CounterGrayCode_Ver.X\mcc_generated_files/clb/src/clb1.c
+[v _CLB1_Initialize CLB1_Initialize `(v  1 e 1 0 ]
+{
+"91
+} 0
+"108
+[v _CLB1_Configure CLB1_Configure `(v  1 e 1 0 ]
+{
+"111
+[v CLB1_Configure@end_address end_address `us  1 a 2 6 ]
+"108
+[v CLB1_Configure@start_address start_address `us  1 p 2 4 ]
+"126
+} 0
+"202 C:\Users\fsacco\Desktop\Francesco\complementaryStudies\pic16f13145\CounterGrayCode_Ver.X\mcc_generated_files/crc/src/crc.c
+[v _CRC_StopNvmScanner CRC_StopNvmScanner `T(v  1 e 1 0 ]
+{
+"210
+} 0
+"192
+[v _CRC_StartNvmScanner CRC_StartNvmScanner `T(v  1 e 1 0 ]
+{
+"200
+} 0
+"212
+[v _CRC_SetScannerAddressLimit CRC_SetScannerAddressLimit `(v  1 e 1 0 ]
+{
+[v CRC_SetScannerAddressLimit@startAddr startAddr `us  1 p 2 0 ]
+[v CRC_SetScannerAddressLimit@endAddr endAddr `us  1 p 2 2 ]
+"218
+} 0
+"220
+[v _CRC_IsScannerBusy CRC_IsScannerBusy `T(a  1 e 1 0 ]
+{
+"223
+} 0
+"59 C:\Users\fsacco\Desktop\Francesco\complementaryStudies\pic16f13145\CounterGrayCode_Ver.X\mcc_generated_files/system/src/interrupt.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
+{
+"70
+} 0
+"116 C:\Users\fsacco\Desktop\Francesco\complementaryStudies\pic16f13145\CounterGrayCode_Ver.X\mcc_generated_files/system/src/pins.c
+[v _PIN_MANAGER_IOC PIN_MANAGER_IOC `(v  1 e 1 0 ]
+{
+"118
+} 0
