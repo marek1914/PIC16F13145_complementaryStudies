@@ -1,0 +1,31 @@
+PIC16F13145
+Equipped with a Configurable Logic Block for Versatile Hardware-Based Solutions
+https://www.microchip.com/en-us/product/pic16f13145
+https://www.eejournal.com/article/tiny-fpga-in-microchips-latest-pic16-microcontroller-adds-real-time-speed-sells-for-less-than-50-cents/
+https://www.allaboutcircuits.com/news/microchip-prioritizes-customizable-logic-in-new-8-bit-mcus/
+PIC16F13145-I/P
+
+Zero Software, eDice PIC16F13145 MCU
+https://youtube.com/shorts/8GK70ALH_x0
+The Configurable Logic Block (CLB) in the PIC16F13145 family of Microcontrollers (MCUs) allows digital logic to be implemented independently 
+of the microcontroller. In this demonstration of the CLB, the electronic dice functionality runs completely independently of the CPU. 
+No executable code for the microcontroller needs to be written for this example, as MPLAB® Code Configurator (MCC) generates any needed initialization code 
+for the CLB and other hardware peripherals. 
+Source Code: https://mchp.us/43D6Qku
+
+https://www.linkedin.com/pulse/pic16f13145-gray-code-francesco-sacco-3jmpe?utm_source=rss&utm_campaign=articles_sitemaps
+https://github.com/francescosacco/complementaryStudies/tree/main/pic16f13145
+https://github.com/francescosacco/complementaryStudies
+https://en.wikipedia.org/wiki/Gray_code
+https://github.com/microchip-pic-avr-examples/pic16f13145-cnano-out-of-box-code-mplab-mcc
+
+PIC16F13145 MCU family addresses the demand for on-chip digital logic through the new Configurable Logic Block (CLB) module, 
+which removes the need for external logic chips. With the CLB module, building if-then statements directly into hardware 
+becomes effortless—no code required. This new MCU family gives you unparalleled flexibility 
+and empowers you to design applications seamlessly 
+without the hassle of managing separate MCU and logic blocks.
+
+Explore the PIC16F13145 MCU Family - A Quick Overview 
+https://www.youtube.com/watch?v=6rlGEGNibec
+Graphical CLB Design Tool (Standalone version): https://logic.microchip.com/clbsynthe...
+CLB Webpage: https://mchp.us/3OZahvL
